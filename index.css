@@ -1,18 +1,22 @@
---bg-primary: #0b1320;       /* Deep Navy / Dark Steel */
+/* ==========================================================================
+   DESIGN SYSTEM & CSS VARIABLES (Dark Steel Blue Aesthetic)
+   ========================================================================== */
+:root {
+    --bg-primary: #0b1320;       /* Deep Navy / Dark Steel */
     --bg-secondary: #121d2f;     /* Slate Steel Blue */
-    --bg-card: #172437;          /* Structured Container Blue */
-    --bg-card-hover: #1e2f47;    /* Interactive Elevation */
+    --bg-card: #172437;          /* Container Blue */
+    --bg-card-hover: #1e2f47;    
     
     --steel-blue-light: #4a6d8c;
     --steel-blue-main: #2c4257;
-    --accent-cyan: #38bdf8;       /* Subtle Technical Accent */
+    --accent-cyan: #38bdf8;       /* Subtle Accent */
     --accent-cyan-glow: rgba(56, 189, 248, 0.15);
     
     --text-primary: #f1f5f9;     /* Soft White */
     --text-secondary: #94a3b8;   /* Muted Slate Gray */
     --text-muted: #64748b;       /* Cool Gray */
     
-    --border-color: #243447;     /* Grid & Card Borders */
+    --border-color: #243447;     
     --border-accent: #38bdf8;
     
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -64,7 +68,6 @@ ul {
     list-style: none;
 }
 
-/* =layout & Containers */
 .container {
     max-width: 1200px;
     margin: 0 auto;

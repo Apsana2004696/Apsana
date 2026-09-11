@@ -1,3 +1,8 @@
+/**
+ * Professional Portfolio JavaScript Architecture
+ * Author: Apsana Shaik Portfolio System
+ */
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // 1. DYNAMIC COPYRIGHT YEAR
